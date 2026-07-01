@@ -1,9 +1,7 @@
-# Reverse Linked List
+list1 = [1,5,3,5,6]
+print(list1.sort())
+list2 = [9,13,5,6,1,3,41,1,1,]
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-def LinkedList(self, data):
-    node = Node(data)
+ans = list1 + list2
+s = ans.sort()
+print(s)
